@@ -1,0 +1,56 @@
+/* Шрифти */
+@import "./utils/fonts";
+
+/* Змінні */
+@import "./utils/variables";
+
+/* Base */
+@import "./base";
+
+/* Utils */
+@import "./utils/utils";
+
+@import "./layouts/section";
+@import "./layouts/container";
+
+/* Buttons */
+@import "./components/buttons";
+
+/* Links */
+@import "./components/links";
+
+/* Header */
+@import "./layouts/header";
+
+/* Hero-section */
+@import "./layouts/hero-section";
+
+/* Advantages-section */
+@import "./layouts/advantages-section";
+
+/* Traditios-section */
+@import "./layouts/traditions-section";
+
+/* Chef-section */
+@import "./layouts/chef-section";
+@import "./components/chef-card";
+
+/* Format-section */
+@import "./layouts/format-section";
+
+@import "./components/format-card";
+
+/* Carousel */
+@import "./components/carousel-button";
+
+/* Contacts-section */
+@import "./layouts/contacts-section";
+
+/* Footer */
+@import "./layouts/footer";
+
+/* Modal */
+@import "./layouts/modal";
+
+/* Form */
+@import "./layouts/forms";
