@@ -9,7 +9,7 @@
 
 /* Utils */
 @import "./utils/utils";
-
+@import "./utils/texts";
 @import "./layouts/section";
 @import "./layouts/container";
 
@@ -44,7 +44,7 @@
 @import "./components/carousel-button";
 
 /* Contacts-section */
-@import "./layouts/contacts-section";
+@import "./layouts/contact-section";
 
 /* Footer */
 @import "./layouts/footer";
@@ -53,4 +53,5 @@
 @import "./layouts/modal";
 
 /* Form */
-@import "./layouts/forms";
+@import "./layouts/input";
+@import "./components/form-terms";
