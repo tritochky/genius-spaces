@@ -11,6 +11,9 @@
             href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
             rel="stylesheet"> -->
         <link rel="stylesheet" href="./css/main.min.css">
+        <link
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.css" />
     </head>
     <body>
         <header class="header">
@@ -62,68 +65,69 @@
                         </ul> -->
                     </div>
                 </div>
-            </header>
-            <main>
-                <section class="hero-section">
-                    <div class="container"><h1 class="hero-section__title"><span
-                                class="text-brand">Сучасна</span>
-                            пекарня</h1>
-                        <button
-                            class="hero-section__button button modal-btn-open"
-                            type="button">Замовити
-                            дзвінок
-                        </button></div>
-                </section>
-                <section class="advantages-section" id="advantages-section">
-                    <div class="container"> <h2 class="visually-hidden">Наші
-                            переваги</h2>
-                        <ul class="advantages-section__list">
-                            <li class="advantages-section__item">Великий попит
-                                на
-                                ринку </li>
-                            <li class="advantages-section__item">Доступні за
-                                бюджетом
-                                формати</li>
-                            <li class="advantages-section__item">Досвідчена
-                                управлінська
-                                команда</li>
-                        </ul></div>
-                </section>
-                <section class="traditions-section section"
-                    id="traditions-section">
-                    <div class="container">
-                        <div class="traditions-section__container">
-                            <div class="traditions-section__content">
-                                <h2
-                                    class="traditions-section__title section__title">Новий
-                                    формат
-                                    традицій</h2>
-                                <p class="traditions-section__text"><span
-                                        class="text-brand text-bold text-uppercase">shop
-                                        bakery</span> — це
-                                    пекарня, яка взяла все
-                                    найкраще, і зберегла смак традиційної
-                                    випічки та
-                                    натуральність інгредієнтів.</p>
-                                <p
-                                    class="traditions-section__text traditions-section__text--limited">Ми
-                                    працюємо як
-                                    найвідоміші
-                                    мережі — <span class="text-brand">5 хвилин і
-                                        замовлення
-                                        готове</span>.
-                                    А ще у наших пекарень стильний дизайн
-                                    та висока якість обслуговування!</p>
-                            </div>
-                            <img
-                                class="traditions-section__image"
-                                srcset="./images/baker-man.jpg 1x, ./images/baker-man@2x.jpg 2x"
-                                src="./images/baker-man.jpg"
-                                alt="Темноволосий чолові-пекар з бородою у світлому фартусі тримається за металевийстелаж з батонами та посміхається, дивлячись на них">
+            </div>
+        </header>
+        <main>
+            <section class="hero-section">
+                <div class="container"><h1 class="hero-section__title"><span
+                            class="text-brand">Сучасна</span>
+                        пекарня</h1>
+                    <button
+                        class="hero-section__button button modal-btn-open"
+                        type="button">Замовити
+                        дзвінок
+                    </button></div>
+            </section>
+            <section class="advantages-section" id="advantages-section">
+                <div class="container"> <h2 class="visually-hidden">Наші
+                        переваги</h2>
+                    <ul class="advantages-section__list">
+                        <li class="advantages-section__item">Великий попит
+                            на
+                            ринку </li>
+                        <li class="advantages-section__item">Доступні за
+                            бюджетом
+                            формати</li>
+                        <li class="advantages-section__item">Досвідчена
+                            управлінська
+                            команда</li>
+                    </ul></div>
+            </section>
+            <section class="traditions-section section"
+                id="traditions-section">
+                <div class="container">
+                    <div class="traditions-section__container">
+                        <div class="traditions-section__content">
+                            <h2
+                                class="traditions-section__title section__title">Новий
+                                формат
+                                традицій</h2>
+                            <p class="traditions-section__text"><span
+                                    class="text-brand text-bold text-uppercase">shop
+                                    bakery</span> — це
+                                пекарня, яка взяла все
+                                найкраще, і зберегла смак традиційної
+                                випічки та
+                                натуральність інгредієнтів.</p>
+                            <p
+                                class="traditions-section__text traditions-section__text--limited">Ми
+                                працюємо як
+                                найвідоміші
+                                мережі — <span class="text-brand">5 хвилин і
+                                    замовлення
+                                    готове</span>.
+                                А ще у наших пекарень стильний дизайн
+                                та висока якість обслуговування!</p>
                         </div>
+                        <img
+                            class="traditions-section__image"
+                            srcset="./images/baker-man.jpg 1x, ./images/baker-man@2x.jpg 2x"
+                            src="./images/baker-man.jpg"
+                            alt="Темноволосий чолові-пекар з бородою у світлому фартусі тримається за металевийстелаж з батонами та посміхається, дивлячись на них">
                     </div>
-                </section>
-                <!-- <section class="chefs-section section" id="chefs-section">
+                </div>
+            </section>
+            <section class="chefs-section section" id="chefs-section">
                 <div class="container">
                     <h2
                         class="chefs-section__title section__title section__title--centred">Наші
@@ -158,7 +162,6 @@
                                     alt="Темноволосий чоловік-пекар у світлому фартусі тримається за металевий стелаж з батонами та посміхається, дивлячись на них">
                                 <div>
                                     <h3 class="chef-card__title">Влад</h3>
-
                                     <p class="chef-card__text">Привіт, я
                                         Влад!</p>
                                     <p class="chef-card__text">Мій
@@ -177,19 +180,18 @@
                                         будь
                                         який
                                         смак!</p>
-
                                 </div>
                             </article>
                         </li>
                     </ul>
                 </div>
-            </section> -->
-                <!--  <section class="formats-section section" id="formats-section">
+            </section>
+            <section class="formats-section section" id="formats-section">
                 <div class="container">
                     <h2
                         class="formats-section__title section__title section__title--centred">Формати</h2>
-                    <div class="formats-section__container">
-                        <button class="carousel-button" type="button">
+                    <div class="formats-section__slider">
+                        <button class="carousel-button prev" type="button">
                             <svg width="16"
                                 height="16">
                                 <use
@@ -197,64 +199,67 @@
                                 </use>
                             </svg>
                         </button>
-                        <ul class="formats-section__list">
-                            <li class="formats-section__item">
-                                <article class="format-card">
-                                    <img class="format-card__image"
-                                        src="./images/walrus-format.jpg"
-                                        alt="Інтер'єр пекарні формату Walrus з дерев'яними столами та стільцями, на яких сидять відвідувачі">
-                                    <h3 class="format-card__title"
-                                        lang="en">Walrus</h3>
-                                    <div class="format-card__text">
-                                        <p>Площа: до 120 м2</p>
-                                        <p>Меню: розширене меню </p>
-                                        <p>Штат: 2 продавці-касири, 2
-                                            пекарі, 2
-                                            помічники
-                                            пекаря, 2
-                                            офіціанти-різнороби</p>
-                                        <p>Посадкові місця: є</p>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="formats-section__item">
-                                <article class="format-card">
-                                    <img class="format-card__image"
-                                        src="./images/horseshoe-format.jpg"
-                                        alt="Інтер'єр пекарні формату Horseshoe з дерев'яними столами та стільцями, на яких сидять відвідувачі">
-                                    <h3 class="format-card__title"
-                                        lang="en">Horseshoe</h3>
-                                    <div class="format-card__text">
-                                        <p>Площа: до 25 м2</p>
-                                        <p>Меню: найпопулярніші позиції
-                                            меню</p>
-                                        <p>Штат: 2 продавці-касири, 2
-                                            пекарі, 1
-                                            помічник
-                                            пекаря</p>
-                                        <p>Посадкові місця: відсутні</p>
-                                    </div>
-                                </article>
-                            </li>
-                            <li class="formats-section__item">
-                                <article class="format-card">
-                                    <img class="format-card__image"
-                                        src="./images/handlebar-format.jpg"
-                                        alt="Інтер'єр пекарні формату Handlebar з дерев'яними столами та стільцями, на яких сидять відвідувачі">
-                                    <h3 class="format-card__title"
-                                        lang="en">Handlebar</h3>
-                                    <div class="format-card__text">
-                                        <p>Площа: до 15 м2</p>
-                                        <p>Меню: найпопулярніші позиції
-                                            меню</p>
-                                        <p>Штат: 1 продавець, 1 пекар, 1
-                                            помічник
-                                            пекаря</p>
-                                        <p>Посадкові місця: відсутні </p>
-                                    </div>
-                                </article>
-                            </li>
-                        </ul>
+                        <div
+                            class="formats-section__container swiper-container">
+                            <ul class="swiper-wrapper">
+                                <li class="swiper-slide">
+                                    <article class="format-card">
+                                        <img class="format-card__image"
+                                            src="./images/walrus-format.jpg"
+                                            alt="Інтер'єр пекарні формату Walrus з дерев'яними столами та стільцями, на яких сидять відвідувачі">
+                                        <h3 class="format-card__title"
+                                            lang="en">Walrus</h3>
+                                        <div class="format-card__text">
+                                            <p>Площа: до 120 м2</p>
+                                            <p>Меню: розширене меню </p>
+                                            <p>Штат: 2 продавці-касири, 2
+                                                пекарі, 2
+                                                помічники
+                                                пекаря, 2
+                                                офіціанти-різнороби</p>
+                                            <p>Посадкові місця: є</p>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li class="swiper-slide">
+                                    <article class="format-card">
+                                        <img class="format-card__image"
+                                            src="./images/horseshoe-format.jpg"
+                                            alt="Інтер'єр пекарні формату Horseshoe з дерев'яними столами та стільцями, на яких сидять відвідувачі">
+                                        <h3 class="format-card__title"
+                                            lang="en">Horseshoe</h3>
+                                        <div class="format-card__text">
+                                            <p>Площа: до 25 м2</p>
+                                            <p>Меню: найпопулярніші позиції
+                                                меню</p>
+                                            <p>Штат: 2 продавці-касири, 2
+                                                пекарі, 1
+                                                помічник
+                                                пекаря</p>
+                                            <p>Посадкові місця: відсутні</p>
+                                        </div>
+                                    </article>
+                                </li>
+                                <li class="swiper-slide">
+                                    <article class="format-card">
+                                        <img class="format-card__image"
+                                            src="./images/handlebar-format.jpg"
+                                            alt="Інтер'єр пекарні формату Handlebar з дерев'яними столами та стільцями, на яких сидять відвідувачі">
+                                        <h3 class="format-card__title"
+                                            lang="en">Handlebar</h3>
+                                        <div class="format-card__text">
+                                            <p>Площа: до 15 м2</p>
+                                            <p>Меню: найпопулярніші позиції
+                                                меню</p>
+                                            <p>Штат: 1 продавець, 1 пекар, 1
+                                                помічник
+                                                пекаря</p>
+                                            <p>Посадкові місця: відсутні </p>
+                                        </div>
+                                    </article>
+                                </li>
+                            </ul>
+                        </div>
                         <button class="carousel-button next" type="button">
                             <svg width="16"
                                 height="16">
@@ -264,8 +269,8 @@
                             </svg>
                         </button></div>
                 </div>
-            </section> -->
-                <!-- <section class="contact-section section" id="contacts-section">
+            </section>
+            <!-- <section class="contact-section section" id="contacts-section">
                 <div class="container">
                     <div class="contact-section__container">
                         <div class="contact-section__form">
@@ -331,8 +336,8 @@
                     </div>
                 </div>
             </section> -->
-            </main>
-            <!-- <footer class="footer">
+        </main>
+        <!-- <footer class="footer">
             <div class="container">
                 <div class="footer-container">
                     <nav class="footer-nav">
@@ -398,51 +403,54 @@
                 </div>
             </div>
         </footer> -->
-            <div class="backdrop is-hidden">
-                <div class="modal">
-                    <button class="modal__btn-close modal-btn-close"
-                        type="button">Close</button>
-                    <h2 class="modal-title">Замовити дзвінок</h2>
-                    <p class="modal-text">Залишіть заявку та наш спеціаліст
-                        зв'яжеться з Вами!</p>
-                    <form class="modal-form" name="contact-form"
-                        autocomplete="off"
-                        method="post">
-                        <div class="modal__form-field input">
-                            <label class="input__label visually-hidden"
-                                for="user-name">Ім'я</label>
-                            <input class="input__control" type="text"
-                                id="user-name"
-                                name="user-name" required placeholder="Ім'я">
-                        </div>
-                        <div class="modal__form-field input">
-                            <label class="input__label visually-hidden"
-                                for="user-tel">Телефон</label>
-                            <input class="input__control" type="tel"
-                                id="user-tel"
-                                name="user-tel" required placeholder="Телефон">
-                        </div>
-                        <div class="modal__form-field input">
-                            <label class="input__label visually-hidden"
-                                for="user-email">Електронна
-                                пошта</label>
-                            <input class="input__control" type="email"
-                                id="user-email"
-                                name="user-email" required
-                                placeholder="Електронна пошта">
-                        </div>
-                        <button class="modal__button button"
-                            type="submit">Замовити дзвінок</button>
-                        <p class="form-terms">Натискаючи на кнопку я погоджуюсь
-                            <a
-                                class="form-terms-link"
-                                href="#">з
-                                політикою
-                                конфіденційності</a></p>
-                    </form>
-                </div>
+        <div class="backdrop is-hidden">
+            <div class="modal">
+                <button class="modal__btn-close modal-btn-close"
+                    type="button">Close</button>
+                <h2 class="modal-title">Замовити дзвінок</h2>
+                <p class="modal-text">Залишіть заявку та наш спеціаліст
+                    зв'яжеться з Вами!</p>
+                <form class="modal-form" name="contact-form"
+                    autocomplete="off"
+                    method="post">
+                    <div class="modal__form-field input">
+                        <label class="input__label visually-hidden"
+                            for="user-name">Ім'я</label>
+                        <input class="input__control" type="text"
+                            id="user-name"
+                            name="user-name" required placeholder="Ім'я">
+                    </div>
+                    <div class="modal__form-field input">
+                        <label class="input__label visually-hidden"
+                            for="user-tel">Телефон</label>
+                        <input class="input__control" type="tel"
+                            id="user-tel"
+                            name="user-tel" required placeholder="Телефон">
+                    </div>
+                    <div class="modal__form-field input">
+                        <label class="input__label visually-hidden"
+                            for="user-email">Електронна
+                            пошта</label>
+                        <input class="input__control" type="email"
+                            id="user-email"
+                            name="user-email" required
+                            placeholder="Електронна пошта">
+                    </div>
+                    <button class="modal__button button"
+                        type="submit">Замовити дзвінок</button>
+                    <p class="form-terms">Натискаючи на кнопку я погоджуюсь
+                        <a
+                            class="form-terms-link"
+                            href="#">з
+                            політикою
+                            конфіденційності</a></p>
+                </form>
             </div>
-            <script src="./js/modal.js"></script>
-            <script src="./js/mobile-menu.js"></script>
-        </body>
-    </html>
+        </div>
+        <script
+            src="https://cdn.jsdelivr.net/npm/swiper@12/swiper-bundle.min.js"></script>
+        <script src="./js/modal.js"></script>
+        <script src="./js/mobile-menu.js"></script>
+        <script src="./js/formats-slider.js"></script>
+    </body>
+</html>
